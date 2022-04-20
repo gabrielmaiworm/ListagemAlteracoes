@@ -1,0 +1,16 @@
+entity Apartamento {
+	numero Integer
+    ala Ala
+    responsavel String
+    status Status
+    detalhes String
+}
+
+enum Ala {
+	PAR, IMPAR, EXTERNA, SUITE
+}
+
+enum Status {
+	PRONTO, OCUPADO, ALTERACAO, INDISPONIVEL
+}
+
