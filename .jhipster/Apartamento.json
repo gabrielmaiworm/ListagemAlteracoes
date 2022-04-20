@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20220420165723",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "apartamento",
+  "fields": [
+    {
+      "fieldName": "numero",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "ala",
+      "fieldType": "Ala",
+      "fieldValues": "PAR,IMPAR,EXTERNA,SUITE"
+    },
+    {
+      "fieldName": "responsavel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValues": "PRONTO,OCUPADO,ALTERACAO,INDISPONIVEL"
+    },
+    {
+      "fieldName": "detalhes",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Apartamento",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
