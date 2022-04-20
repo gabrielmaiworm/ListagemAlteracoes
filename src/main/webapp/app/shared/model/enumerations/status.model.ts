@@ -1,0 +1,9 @@
+export enum Status {
+  PRONTO = 'PRONTO',
+
+  OCUPADO = 'OCUPADO',
+
+  ALTERACAO = 'ALTERACAO',
+
+  INDISPONIVEL = 'INDISPONIVEL',
+}
